@@ -6,9 +6,7 @@ In this step we have a simple front end for our system. Lets start off by instal
 
 1. `cd frontend/api`
 2. `npm install`
-3. `cd ../public`
-4. `bower install`
-5. `node index.js`
+3. `node index.js`
 
 Point your browser to http://localhost:10001. You should see a chart. Simple!
 
