@@ -13,7 +13,7 @@ The app you're building is a sensor fed chart that provides realtime
 data from a dummy sensor. This 'app' is broken down into a number of
 individual services, each with its own well defined concern. as outlined in this diagram
 
-![image](/Users/pelger/work/nearform/code/nodeconf/_developing-microservices/docs/target.png)
+![image](./docs/target.png)
 
 ### Frontend
 A simple web app that uses JQuery, Rickshaw charts, and WebSockets to show
