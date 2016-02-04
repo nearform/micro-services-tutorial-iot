@@ -41,7 +41,7 @@ A database in a container that the serialiser uses for robust storage of data.
 
 Once we have built the application it shoud look a bit like this:
 
-![image](/Users/pelger/work/nearform/code/nodeconf/_developing-microservices/docs/screen.png)
+![image](./docs/screen.png)
 
 ## The libraries
 
