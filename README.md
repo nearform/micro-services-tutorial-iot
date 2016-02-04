@@ -122,6 +122,8 @@ docker pull tutum/influxdb
 ```
 Once you have the following complete its time to move to step0
 
+## Next Up [step0](./step0/README.md)
+
 ## Need Help
 We are as ever your humble servants and happy to take any questions:
 
