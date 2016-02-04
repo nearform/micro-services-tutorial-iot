@@ -27,3 +27,5 @@ __hint__ make sure that you have installed fuge using `npm install -g fuge`.
 
 __hint__ you can start the fuge shell using `fuge shell ./fuge/compose-dev.yml`
 
+
+## Next Up [step4](./step4/README.md)

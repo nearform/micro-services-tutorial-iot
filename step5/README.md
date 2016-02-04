@@ -19,3 +19,5 @@ The actuator service will send an offset message to the sensor via the mqtt brok
 __Note__: A button and input field have been provided on the front end to call the /set route for you.
 
 Once you have your config ready, restart the system and point your browser to the front end. You should see data flowing as before but now you should be able to send an offset message and see the chart change in real time.
+
+## Next Up [step6](./step6/README.md)

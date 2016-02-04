@@ -22,3 +22,5 @@ docker pull tutum/influx
 Documentation on how to start the container can be found here: https://hub.docker.com/r/tutum/influxdb/
 
 Your challenge is to startup the influxDB container. Once you have it running successfully open your browser and check out the influx web interface.
+
+## Next Up [step1](./step1/README.md)

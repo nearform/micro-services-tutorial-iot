@@ -22,3 +22,5 @@ the broker in step4/services/broker.
 Your challenge is to add this into the fuge yml file and get the system running. Once you do this you should be able to start the front end, influx and your microservices from the fuge shell and see data streming from the sensor to the front end.
 
 __hint__ you can use the fuge build command to speed up installing dependencies
+
+## Next Up [step5](./step5/README.md)

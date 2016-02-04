@@ -38,3 +38,5 @@ You can check that the data points are indeed written to influx by pointing your
 use temperature;
 select * from temperature;
 ```
+
+## Next Up [step2](./step2/README.md)
