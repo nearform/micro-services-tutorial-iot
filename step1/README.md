@@ -39,4 +39,4 @@ use temperature;
 select * from temperature;
 ```
 
-## Next Up [step2](./step2/README.md)
+## Next Up [step2](../step2/README.md)

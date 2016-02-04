@@ -23,4 +23,4 @@ Documentation on how to start the container can be found here: https://hub.docke
 
 Your challenge is to startup the influxDB container. Once you have it running successfully open your browser and check out the influx web interface.
 
-## Next Up [step1](./step1/README.md)
+## Next Up [step1](../step1/README.md)

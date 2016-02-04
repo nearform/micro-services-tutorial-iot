@@ -23,4 +23,4 @@ Your challenge is to add this into the fuge yml file and get the system running.
 
 __hint__ you can use the fuge build command to speed up installing dependencies
 
-## Next Up [step5](./step5/README.md)
+## Next Up [step5](../step5/README.md)

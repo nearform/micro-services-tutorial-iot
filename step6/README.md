@@ -15,4 +15,4 @@
 
 edit fuge config to not tail, tail the actuator, edit the service to add some trace hit the button and see the new trace come out
 
-## Next Up [step7](./step7/README.md)
+## Next Up [step7](../step7/README.md)

@@ -29,4 +29,4 @@ __hint__ If you look at the updated frontend code you will see that it uses the 
 
 Your script will need to set these values prior to starting the frontend.
 
-## Next Up [step3](./step3/README.md)
+## Next Up [step3](../step3/README.md)
