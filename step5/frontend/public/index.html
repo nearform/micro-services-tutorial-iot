@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Charting frontend</title>
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link type="text/css" rel="stylesheet" href="/lib/rickshaw.min.css">
+  <script src="/lib/d3.min.js"></script>
+  <script src="/lib/jquery.js"></script>
+  <script src="/lib/lodash.min.js"></script>
+  <script src="/lib/rickshaw.min.js"></script>
+  </head>
+  <body>
+  <div id='header'>
+    <h2>Temperature Sensor 1</h2>
+  </div>
+  <div id="controls">
+    <input type='text' id='offset'></input>
+    <button type='button' id='setOffset'>set</button>
+  </div>
+  <div id="chart_container">
+    <div id="chart"></div>
+    <div id="timeline"></div>
+    <div id="preview"></div>
+  </div>
+  </body>
+  <script src="/js/bundle.js"></script>
+</html>
+

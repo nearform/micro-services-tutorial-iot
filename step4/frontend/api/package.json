@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "seneca": "^0.6.4",
+    "end-of-stream": "^1.1.0",
+    "websocket-stream": "^2.0.2"
+  }
+}
