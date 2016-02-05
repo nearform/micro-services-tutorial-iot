@@ -5,7 +5,7 @@ This workshop will walk you through creating and composing a set of
 microservices in node.js using fuge, docker and docker-compose.
 
 __Note:__ This is a beginners level workshop. Whilst you should be comfortable
-with Node.js modules and applications and have a basic understanding of docker
+with node.js modules and applications and have a basic understanding of docker
 and it's principles we will be helping you through the basics. This workshop presents a series of fairly simple challenges to help you get up to speed with these technolgies.
 
 ## The app
