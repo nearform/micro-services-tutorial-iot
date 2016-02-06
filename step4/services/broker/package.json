@@ -9,8 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mosca": "^0.31.1",
-    "seneca": "^0.6.4"
+    "mosca": "1.0.x",
+    "seneca": "1.1.x"
   }
 }
-

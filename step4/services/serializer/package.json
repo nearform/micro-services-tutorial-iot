@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "influx": "^4.0.1",
-    "seneca": "^0.6.4"
+    "influx": "4.1.x",
+    "seneca": "1.1.x"
   }
 }
