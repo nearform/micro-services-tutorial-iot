@@ -115,7 +115,7 @@ Set your shells environment using: `eval "$(docker-machine env default)"`
 
 Confirm that all is well by running: `docker ps`
 
-This tutorial uses a docker influx db container you should pull this container using the following command:
+This tutorial uses a docker [influx db container](https://hub.docker.com/r/tutum/influxdb/) you should pull this container using the following command:
 
 ```
 docker pull tutum/influxdb
