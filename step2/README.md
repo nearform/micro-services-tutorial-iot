@@ -8,14 +8,14 @@
 3. Send some test data using the script step2/services/serializer/testWrite.sh
 4. use the influx console to view data points
 
-__note__ The serializer code is a seneca micro-service. Seneca provides an abstration layer over various transport mechanisms including tcp, http, rabbitMq etc... In this tutorial we are using http as the transport mechanism and sending JSON based messges.
+__note__ The serializer code is a seneca micro-service. Seneca provides an abstraction layer over various transport mechanisms including TCP, HTTP, RabbitMQ, Redis, NATS, etc... In this tutorial we are using HTTP as the transport mechanism and sending JSON based messages.
 
 ## Challenge
 ![image](../docs/step2.png)
 
 The next thing we will need to do is to hook up our front end to our serialization service in order to read data values for charting.
 
-An updated front end that talks to the serialization service is provided in step2/frontend. 
+An updated front end that talks to the serialization service is provided in step2/frontend.
 
 Your challenge is to start up influxDB, the frontend and the serialization service. To do this you will need to write a startup script for the frontend service in the same way as the serialization service.
 
