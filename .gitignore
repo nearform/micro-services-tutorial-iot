@@ -22,3 +22,5 @@ app/bower_components
 options.mine.js
 db/
 data/
+.DS_Store
+log

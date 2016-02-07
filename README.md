@@ -6,7 +6,7 @@ microservices in node.js using fuge, docker and docker-compose.
 
 __Note:__ This is a beginners level workshop. Whilst you should be comfortable
 with node.js modules and applications and have a basic understanding of docker
-and it's principles we will be helping you through the basics. This workshop presents a series of fairly simple challenges to help you get up to speed with these technolgies.
+and it's principles we will be helping you through the basics. This workshop presents a series of fairly simple challenges to help you get up to speed with these technologies.
 
 ## The app
 The app you're building is a sensor fed chart that provides realtime
@@ -115,7 +115,7 @@ Set your shells environment using: `eval "$(docker-machine env default)"`
 
 Confirm that all is well by running: `docker ps`
 
-This tutorial uses a docker influx db container you should pull this container using the following command:
+This tutorial uses a docker [influx db container](https://hub.docker.com/r/tutum/influxdb/) you should pull this container using the following command:
 
 ```
 docker pull tutum/influxdb

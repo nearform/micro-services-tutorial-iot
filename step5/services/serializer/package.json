@@ -2,14 +2,14 @@
   "name": "serializer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "serializer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "influx": "^4.0.1",
-    "seneca": "^0.6.4"
+    "influx": "4.1.x",
+    "seneca": "1.1.x"
   }
 }

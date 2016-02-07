@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "microservices-tutorial-iot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,11 @@
   "dependencies": {
     "end-of-stream": "1.1.x",
     "express": "4.13.x",
+    "influx": "4.1.x",
     "lodash": "4.2.x",
     "moment": "2.11.x",
+    "mosca": "1.0.x",
+    "mqtt": "1.7.x",
     "seneca": "1.1.x",
     "websocket-stream": "3.1.x"
   }
