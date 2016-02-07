@@ -16,7 +16,7 @@ individual services, each with its own well defined concern. as outlined in this
 ![image](./docs/target.png)
 
 ### Frontend
-A simple web app that uses JQuery, Rickshaw charts, and WebSockets to show
+A simple web app that uses jQuery, Rickshaw charts, and WebSockets to show
 a realtime graph of data being emitted by our sensor. This app has an API
 which is included in the same microservice who's sole job is to talk to
 and read from other microservices.
@@ -52,7 +52,7 @@ A charting library for the web.
 
 http://code.shutterstock.com/rickshaw/
 
-### HAPI
+### hapi
 A HTTP Web server library.
 
 http://hapijs.com/
