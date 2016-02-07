@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "websocket-stream": "^2.0.2"
+    "moment": "2.11.x"
   }
 }

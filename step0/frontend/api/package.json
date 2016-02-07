@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "end-of-stream": "^1.1.0",
-    "express": "^4.13.3",
-    "lodash": "^3.10.1",
-    "websocket-stream": "^2.0.2"
+    "end-of-stream": "1.1.x",
+    "express": "4.13.x",
+    "lodash": "4.2.x",
+    "websocket-stream": "3.1.x"
   }
 }

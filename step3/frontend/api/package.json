@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
-    "lodash": "^3.10.1",
-    "moment": "^2.10.6",
-    "seneca": "^0.6.4",
-    "end-of-stream": "^1.1.0",
-    "websocket-stream": "^2.0.2"
+    "end-of-stream": "1.1.x",
+    "express": "4.13.x",
+    "lodash": "4.2.x",
+    "moment": "2.11.x",
+    "seneca": "1.1.x",
+    "websocket-stream": "3.1.x"
   }
 }

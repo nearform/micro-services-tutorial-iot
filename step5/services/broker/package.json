@@ -2,15 +2,14 @@
   "name": "broker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "broker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mosca": "^0.31.1",
-    "seneca": "^0.6.4"
+    "mosca": "1.0.x",
+    "seneca": "1.1.x"
   }
 }
-
