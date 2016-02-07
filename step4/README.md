@@ -16,10 +16,14 @@ __note__ Fuge is now running a mixture of processes and docker containers. It do
 ## Challenge
 ![image](../docs/step4.png)
 
-Now that we have our serializer service setup lets add in the dummy sensor and our mqtt broker. The code for the sensor is in step4/services/sensor and for
-the broker in step4/services/broker.
+Now that we have our serializer service setup lets add in the dummy sensor and
+our MQTT broker. The code for the sensor is in step4/services/sensor and for the
+broker in step4/services/broker.
 
-Your challenge is to add this into the fuge yml file and get the system running. Once you do this you should be able to start the front end, influx and your microservices from the fuge shell and see data streming from the sensor to the front end.
+Your challenge is to add this into the fuge yml file and get the system running.
+Once you do this you should be able to start the front end, influx and your
+microservices from the fuge shell and see data streaming from the sensor to the
+front end.
 
 __hint__ you can use the fuge build command to speed up installing dependencies
 

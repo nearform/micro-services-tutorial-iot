@@ -1,12 +1,13 @@
 # Step 5
 
-## solution to step 4 
+## solution to step 4
 
 1. the folder step5/fuge contains an updated fuge configuration
 2. start fuge up by running `fuge shell fuge/compose-dev.yml`
 3. start the system in the shell by running `start all`
 4. open http://localhost:10001 to view the data points
-5. data is now streaming from the sensor through the broker to the serialization service and being displayed on the front end
+5. data is now streaming from the sensor through the broker to the serialization
+service and being displayed on the front end
 
 
 ## Challenge
