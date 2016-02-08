@@ -1,7 +1,6 @@
 # Step 6
 
 ## solution to step 5
-
 1. the folder step6/fuge contains an updated fuge configuration
 2. start fuge up by running `fuge shell fuge/compose-dev.yml`
 3. start the system in the shell by running `start all`

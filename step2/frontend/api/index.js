@@ -32,7 +32,7 @@ setInterval(function() {
 }, 1000);
 
 
-http.listen(process.env.SERVICE_PORT, function(){
-  console.log('listening on *:' + process.env.SERVICE_PORT);
+http.listen(process.env.frontend_PORT, function(){
+  console.log('listening on *:' + process.env.frontend_PORT);
 });
 

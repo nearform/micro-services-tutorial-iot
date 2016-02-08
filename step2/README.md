@@ -25,7 +25,7 @@ __hint__ If you look at the updated frontend code you will see that it uses the 
 
 * PROXY_HOST
 * serializer_PORT
-* SERVICE_HOST
+* frontend_PORT
 
 Your script will need to set these values prior to starting the frontend.
 

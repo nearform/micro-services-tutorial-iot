@@ -1,7 +1,6 @@
 'use strict';
 
-process.env.SERVICE_HOST = 'localhost';
-process.env.SERVICE_PORT = 3001;
+process.env.serializer_PORT = 3001;
 process.env.INFLUX_HOST = '192.168.59.103';
 
 var assert = require('assert');

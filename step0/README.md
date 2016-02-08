@@ -4,7 +4,7 @@
 
 In this step we have a simple front end for our system. Lets start off by installing some dependencies and running it. Do the following:
 
-Start by running `npm install` in the top level directory of the _micro-services-tutorial-iot_ repo.
+If you haven't done so already, start by running `npm install` in the top level directory of the _micro-services-tutorial-iot_ repo. Then run the frontend as follows:
 
 1. `cd frontend/api`
 2. `node index.js`

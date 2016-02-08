@@ -1,0 +1,39 @@
+influx:
+  image: tutum/influxdb
+  container_name: influx
+  ports:
+    - 8086:8086
+    - 8083:8083
+serializer:
+  env_file: env
+  build: ../services/serializer/
+  container_name: serializer
+  ports:
+    - 10000:10000
+frontend:
+  env_file: env
+  build: ../frontend/
+  container_name: frontend
+  ports:
+    - 10001:10001
+broker:
+  env_file: env
+  build: ../services/broker/
+  container_name: broker
+  ports:
+    - 10002:10002
+    - 1883:1883
+    - 8883:8883
+sensor:
+  env_file: env
+  build: ../services/sensor/
+  container_name: sensor 
+  ports:
+    - 10003:10003
+actuator:
+  env_file: env
+  build: ../services/actuator/
+  container_name: actuator
+  ports:
+    - 10004:10004
+

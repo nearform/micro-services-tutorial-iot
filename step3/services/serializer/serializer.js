@@ -9,7 +9,7 @@ const seneca = Seneca();
 
 var createDatabase = function (cb) {
   setTimeout(() => {
-    const initDb = influx({host: process.env.INFLUX_HOST, username: 'root', password: 'root'});
+    const initDb = influx({host: process.env.PROXY_HOST, username: 'root', password: 'root'});
     initDb.createDatabase('temperature', (err) => {
       if (err) {
         console.error(`ERROR: ${err}`);
@@ -23,7 +23,7 @@ var createDatabase = function (cb) {
 
 
 createDatabase(() => {
-  var db = influx({host: process.env.INFLUX_HOST, username: 'root', password: 'root', database: 'temperature'});
+  var db = influx({host: process.env.PROXY_HOST, username: 'root', password: 'root', database: 'temperature'});
   var ifx = influxUtil(db);
 
   seneca.add({role: 'serialize', cmd: 'read'}, (args, cb) => {
@@ -36,7 +36,7 @@ createDatabase(() => {
   });
 
 
-  seneca.listen({host: process.env.SERVICE_HOST, port: process.env.SERVICE_PORT});
+  seneca.listen({port: process.env.serializer_PORT});
 });
 
 

@@ -36,7 +36,7 @@ createDatabase(() => {
   });
 
 
-  seneca.listen({host: process.env.SERVICE_HOST, port: process.env.SERVICE_PORT});
+  seneca.listen({port: process.env.serializer_PORT});
 });
 
 

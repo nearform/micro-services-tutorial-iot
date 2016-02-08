@@ -28,12 +28,15 @@ setInterval(function() {
       console.log(toEmit);
       webStream.emit(toEmit);
     }
+    else {
+      console.log('.');
+    }
   });
 }, 1000);
 
 
 
-http.listen(process.env.SERVICE_PORT, function(){
-  console.log('listening on *:' + process.env.SERVICE_PORT);
+http.listen(process.env.frontend_PORT, function(){
+  console.log('listening on *:' + process.env.frontend_PORT);
 });
 

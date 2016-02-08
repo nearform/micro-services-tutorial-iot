@@ -23,12 +23,10 @@ Your challenge is to write a small script to start this process up and use it to
 ```sh
 curl -X POST -d "{\"role\": \"serialize\", \"cmd\": \"write\", \"sensorId\": \"1\", \"temperature\": 32}" http://localhost:10000/act  --header "Content-Type:application/json"
 ```
-__hint__ you will need to install dependencies using npm
 __hint__ If you look at the code in `serializer.js` you will notice that it uses the folling environment variables:
 
 * INFLUX_HOST
-* SERVICE_HOST
-* SERVICE_PORT
+* serializer_PORT
 
 Your startup script will need to set these variables to the correct values.
 

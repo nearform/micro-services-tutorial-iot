@@ -120,7 +120,28 @@ This tutorial uses a docker [influx db container](https://hub.docker.com/r/tutum
 ```
 docker pull tutum/influxdb
 ```
+
+you should also pull a node.jd container using:
+
+```
+docker pull node
+```
+
 Once you have the following complete its time to move to step0
+
+### Workshop
+You should clone this repository to your local machine:
+
+```
+git clone git@github.com:nearform/micro-services-tutorial-iot.git
+```
+
+You should then setup the repository by installing required node modules:
+
+```
+cd micro-services-tutorial-iot
+npm install
+```
 
 ## Next Up [step0](./step0/README.md)
 

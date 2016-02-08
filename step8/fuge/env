@@ -1,0 +1,9 @@
+PROXY_HOST=192.168.99.100
+influx_PORT_8086=8086
+influx_PORT_8083=8086
+serializer_PORT=10000
+frontend_PORT=10001
+broker_PORT=10002
+sensor_PORT=10003
+actuator_PORT=10004
+
