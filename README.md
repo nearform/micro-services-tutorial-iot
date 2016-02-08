@@ -52,10 +52,10 @@ A charting library for the web.
 
 http://code.shutterstock.com/rickshaw/
 
-### hapi
+### express
 A HTTP Web server library.
 
-http://hapijs.com/
+http://expressjs.com/
 
 ### websocket-stream
 A web socket streams implementation for realtime communication to the browser.
