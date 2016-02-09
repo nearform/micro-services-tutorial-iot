@@ -121,7 +121,7 @@ This tutorial uses a docker [influx db container](https://hub.docker.com/r/tutum
 docker pull tutum/influxdb
 ```
 
-you should also pull a node.jd container using:
+you should also pull a node.js container using:
 
 ```
 docker pull node
@@ -145,7 +145,8 @@ npm install
 
 ## Next Up [step0](./step0/README.md)
 
-## Need Help
+
+## Need Help?
 We are as ever your humble servants and happy to take any questions:
 
 - [@matteocollina](https://twitter.com/matteocollina)

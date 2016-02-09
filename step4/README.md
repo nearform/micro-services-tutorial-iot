@@ -16,7 +16,7 @@ __note__ Fuge is now running a mixture of processes and docker containers. It do
 ## Challenge
 ![image](../docs/step4.png)
 
-Now that we have our serializer service setup lets add in the dummy sensor and
+Now that we have our serializer service running, lets add in the dummy sensor and
 our MQTT broker. The code for the sensor is in step4/services/sensor and for the
 broker in step4/services/broker.
 

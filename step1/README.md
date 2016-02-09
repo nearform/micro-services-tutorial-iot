@@ -5,7 +5,7 @@
 1. The container can be started with `docker run -d -p 8083:8083 -p 8086:8086 tutum/influxdb`
 2. The file step1/services/influx/run.sh contains the command to start the influx container for your convenience.
 3. Run `docker-machine ip default` to obtain the docker-machine ip address
-4. Point your browser to http://<docker machine ip>:8083/ to open the influx console
+4. Point your browser to http://\<dockermachineip\>:8083/ to open the influx console
 
 The `-p` argument exposes ports 8083 and 8086 from the container to the host. The `-d` argument tells docker to run the container in [detached mode](https://docs.docker.com/engine/reference/run/#detached-d).
 
@@ -23,6 +23,7 @@ Your challenge is to write a small script to start this process up and use it to
 ```sh
 curl -X POST -d "{\"role\": \"serialize\", \"cmd\": \"write\", \"sensorId\": \"1\", \"temperature\": 32}" http://localhost:10000/act  --header "Content-Type:application/json"
 ```
+
 __hint__ If you look at the code in `serializer.js` you will notice that it uses the folling environment variables:
 
 * INFLUX_HOST
