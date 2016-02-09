@@ -17,8 +17,8 @@ and hit the button
 Fuge automatically watches your services for you and will detect any changes to your code and live restart them. To see this in action
 lets do a couple of things:
 
-1. Firstly the output from influx is a little verbose so lets fix that: edit the file step6/fuge/fuge-config.js and change the tail setting to false
-2. next restart the fuge shell and start all services. 
+1. Firstly, the output from influx is a little verbose so lets fix that: edit the file step6/fuge/fuge-config.js and change the tail setting to false
+2. next restart the fuge shell and start all services.
 3. next lets tail the serializer service by running `tail serializer`
 4. run `ps` to show the state of the system it should report that fuge is watching all processes for changes but only tailing the serializer service
 5. open the file step6/services/serializer/serializer.js and add some trace output

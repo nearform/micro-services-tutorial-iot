@@ -15,6 +15,7 @@ Point your browser to http://localhost:10001. You should see a chart. Simple!
 Next we are going to start up our database. To do this we are going to take advantage of Docker. If you haven't done this already you can fetch this container by running:
 
 ```
+>>>>>>> 1efb8bc9ac8d81043f8e8a241779d30450d76ca9
 docker pull tutum/influxdb
 ```
 

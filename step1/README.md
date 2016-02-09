@@ -21,7 +21,7 @@ Now that we have our database running, we are going to create a micro-service to
 Your challenge is to write a small script to start this process up and use it to write temperature values into influx DB. Once the service is up and running you can use the following command to send data points to the service.
 
 ```sh
-curl -X POST -d "{\"role\": \"serialize\", \"cmd\": \"write\", \"sensorId\": \"1\", \"temperature\": 32}" http://localhost:10000/act  --header "Content-Type:application/json"
+curl -X POST -d '{"role": "serialize", "cmd": "write", "sensorId": "1", "temperature": 32}' http://localhost:10000/act  --header "Content-Type:application/json"
 ```
 
 __hint__ If you look at the code in `serializer.js` you will notice that it uses the folling environment variables:
