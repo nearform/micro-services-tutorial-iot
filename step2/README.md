@@ -21,7 +21,7 @@ Your challenge is to start up influxDB, the frontend and the serialization servi
 
 Once you have these up and running use the testWrite.sh script to send data to influx and see it appear in the front end.
 
-__hint__ If you look at the updated frontend code you will see that it uses the follwing environment variables
+__hint__ If you look at the updated frontend code you will see that it uses the following environment variables
 
 * PROXY_HOST
 * serializer_PORT
