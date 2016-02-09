@@ -3,7 +3,7 @@
 ## solution to step 1
 
 1. The influx container can be started with the script provided in step2/services/influx
-2. The folder step2/services/serailizer contains the code for the serialization service
+2. The folder step2/services/serializer contains the code for the serialization service
 2. Start this service with the script step2/services/serializer/run.sh
 3. Send some test data using the script step2/services/serializer/testWrite.sh
 4. use the influx console to view data points
