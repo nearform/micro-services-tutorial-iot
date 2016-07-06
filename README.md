@@ -111,7 +111,9 @@ Go to https://www.docker.com/products/docker-toolbox and download and install th
 
 Once you have the toolbox installed, start the default machine: `docker-machine start default`
 
-Set your shells environment using: `eval "$(docker-machine env default)"`
+Set your shells environment using: `eval "$(docker-machine env default)"`.
+On Windows for cmd.exe use `@FOR /f "tokens=*" %i IN ('docker-machine.exe env') DO @%i` to set the environment.
+More details [here](https://docs.docker.com/machine/reference/env/).
 
 Confirm that all is well by running: `docker ps`
 
