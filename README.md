@@ -106,6 +106,11 @@ Once you have installed node.js fuge may be installed by running:
 npm install -g fuge
 ```
 
+### cURL
+Windows does not come with cURL included in CMD.exe. If you are using Windows please install cURL ensuring you select the version 
+that matches your installed version of Windows. cURL can be found at [https://curl.haxx.se/download.html](). Please use the Windows
+generic version if using CMD.exe.
+
 ### Docker
 Go to https://www.docker.com/products/docker-toolbox and download and install the latest stable version of docker toolbox for your platform.
 
