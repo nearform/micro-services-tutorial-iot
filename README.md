@@ -39,7 +39,7 @@ the actuator, serialiser and sensor in a loosely coupled fashion.
 ### Influx
 A database in a container that the serialiser uses for robust storage of data.
 
-Once we have built the application it shoud look a bit like this:
+Once we have built the application it should look a bit like this:
 
 ![image](./docs/screen.png)
 
