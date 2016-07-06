@@ -19,7 +19,7 @@ The folder step3/fuge contains two files:
 * compose-dev.yml - a docker compose format file that specifies the processes that make up our system
 * fuge-config.json - global fuge settings
 
-Your challenge is to run the system using the fuge shell. You can find some documentation on fuge here: [https://github.com/apparatus/fuge](https://github.com/apparatus/fuge). Once you have the system started up you can check that everything is working by using the script step3/services/serializer/testWrite.sh. You should see data coming through to the frontend chart.
+Your challenge is to run the system using the fuge shell. You can find some documentation on fuge here: [https://github.com/apparatus/fuge](https://github.com/apparatus/fuge). Once you have the system started up you can check that everything is working by using the script step3/services/serializer/testWrite.sh (or testWrite.bat). You should see data coming through to the frontend chart.
 
 __hint__ you will need to stop all of the previously running processes and containers first.
 
