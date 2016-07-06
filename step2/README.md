@@ -2,10 +2,10 @@
 
 ## solution to step 1
 
-1. The influx container can be started with the script provided in step2/services/influx
+1. The influx container can be started with the scripts provided in step2/services/influx
 2. The folder step2/services/serializer contains the code for the serialization service
-2. Start this service with the script step2/services/serializer/run.sh
-3. Send some test data using the script step2/services/serializer/testWrite.sh
+2. Start this service with the script step2/services/serializer/run.sh (or run.bat)
+3. Send some test data using the script step2/services/serializer/testWrite.sh (or testWrite.bat)
 4. use the influx console to view data points
 
 __note__ The serializer code is a seneca micro-service. Seneca provides an abstraction layer over various transport mechanisms including TCP, HTTP, RabbitMQ, Redis, NATS, etc... In this tutorial we are using HTTP as the transport mechanism and sending JSON based messages.
