@@ -3,7 +3,7 @@
 ## Solution to step 0
 
 1. The container can be started with `docker run -d -p 8083:8083 -p 8086:8086 tutum/influxdb`
-2. The file step1/services/influx/run.sh contains the command to start the influx container for your convenience.
+2. The files in step1/services/influx/ contain commands to start the influx container for your convenience.
 3. Run `docker-machine ip default` to obtain the docker-machine ip address
 4. Point your browser to http://\<dockermachineip\>:8083/ to open the influx console
 
