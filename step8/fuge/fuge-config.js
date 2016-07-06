@@ -3,7 +3,7 @@ module.exports = {
   // run docker containers if false containers with image attribute will not be run
   runDocker: true,
 
-  // proxy settings - one of docker | process | all
+  // proxy settings - one of docker | process | all | none
   proxy: 'docker',
 
   // if true tail running process to the shell by default
