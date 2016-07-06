@@ -107,7 +107,7 @@ npm install -g fuge
 ```
 
 ### Docker
-Go to https://www.docker.com/products/docker-toolbox and download and install the latest stable verions of docker toolbox for your platform.
+Go to https://www.docker.com/products/docker-toolbox and download and install the latest stable version of docker toolbox for your platform.
 
 Once you have the toolbox installed, start the default machine: `docker-machine start default`
 
