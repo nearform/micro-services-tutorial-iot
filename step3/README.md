@@ -2,11 +2,11 @@
 
 ## solution to step 2
 
-1. The influx container can be started with the script provided in step3/services/influx
-2. Start the serialization service with the script step3/services/serializer/run.sh
-3. Start the frontend with the script step3/frontend/run.sh
+1. The influx container can be started with the scripts provided in step3/services/influx
+2. Start the serialization service with the script step3/services/serializer/run.sh (or run.bat)
+3. Start the frontend with the script step3/frontend/run.sh (or run.bat)
 4. open the frontend at http://localhost:10001/
-5. Send some test data using the script step3/services/serializer/testWrite.sh
+5. Send some test data using the script step3/services/serializer/testWrite.sh (or testWrite.bat)
 6. The data points should appear on the frontend chart
 
 ## Challenge
