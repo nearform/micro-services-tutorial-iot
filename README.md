@@ -4,6 +4,10 @@
 This workshop will walk you through creating and composing a set of
 microservices in node.js using fuge, docker and docker-compose.
 
+__Supports:__ Node 4.x +
+
+__Tested On:__ Win7, Win10, OSX, Linux
+
 __Note:__ This is a beginners level workshop. Whilst you should be comfortable
 with node.js modules and applications and have a basic understanding of docker
 and it's principles we will be helping you through the basics. This workshop presents a series of fairly simple challenges to help you get up to speed with these technologies.
@@ -105,6 +109,7 @@ Once you have installed node.js fuge may be installed by running:
 ```
 npm install -g fuge
 ```
+__Note__ To work through this workshop on Linux please set `proxy: 'none'` in the `fuge-config.js` for each step.
 
 ### cURL
 Windows does not come with cURL included in CMD.exe. If you are using Windows please install cURL ensuring you select the version 
