@@ -1,13 +1,17 @@
 {
   "name": "microservices-tutorial-iot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Microservices Tutorial IoT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearform/micro-services-tutorial-iot"
+  },
   "dependencies": {
     "end-of-stream": "1.1.x",
     "express": "4.13.x",
