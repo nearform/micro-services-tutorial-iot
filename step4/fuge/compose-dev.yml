@@ -1,6 +1,5 @@
 influx:
   image: tutum/influxdb
-  container_name: influx
   ports:
     - 8086:8086
     - 8083:8083

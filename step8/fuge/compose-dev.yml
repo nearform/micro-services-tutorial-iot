@@ -1,6 +1,5 @@
 influx:
   image: tutum/influxdb
-  container_name: influx
   ports:
     - 8086:8086
     - 8083:8083
@@ -15,7 +14,7 @@ broker:
   container_name: broker
 sensor:
   build: ../services/sensor/
-  container_name: sensor 
+  container_name: sensor
 actuator:
   build: ../services/actuator/
   container_name: actuator
