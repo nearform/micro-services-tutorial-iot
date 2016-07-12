@@ -2,7 +2,7 @@
   "white": false,
   "node": true,
   "browser": true,
-  "esnext": true,
+  "esversion": 6,
   "bitwise": true,
   "camelcase": true,
   "curly": true,
@@ -10,7 +10,7 @@
   "immed": true,
   "indent": 2,
   "latedef" : "nofunc",
-  "newcap": true,
+  "newcap": false,
   "noarg": true,
   "quotmark": "single",
   "regexp": true,
@@ -20,7 +20,7 @@
   "trailing": true,
   "smarttabs": true,
   "globals": {
-    "document": true, 
+    "document": true,
     "$":true,
     "_":true
   }
