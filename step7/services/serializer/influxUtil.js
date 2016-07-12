@@ -2,16 +2,16 @@
 
 module.exports = function(client) {
 
-  var writePoint = function(sensorId, temperature, cb) {
-    client.writePoint('temperature', {sensorId: sensorId, temperature: temperature}, {}, function(err) {
+  const writePoint = (sensorId, temperature, cb) => {
+    client.writePoint('temperature', {sensorId: sensorId, temperature: temperature}, {}, (err) => {
       cb(err);
     });
   };
 
 
 
-  var readPoints = function(sensorId, start, end, cb) {
-    client.query('select * from temperature where sensorId=\'' + sensorId + '\' and time > \'' + start + '\' and time < \'' + end + '\'', function(err, data) {
+  const readPoints = (sensorId, start, end, cb) => {
+    client.query('select * from temperature where sensorId=\'' + sensorId + '\' and time > \'' + start + '\' and time < \'' + end + '\'', (err, data) => {
       cb(err, data);
     });
   };
@@ -23,5 +23,3 @@ module.exports = function(client) {
     readPoints: readPoints
   };
 };
-
-

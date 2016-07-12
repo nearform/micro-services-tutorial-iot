@@ -1,8 +1,8 @@
 'use strict';
 
-var mosca = require('mosca');
-var seneca = require('seneca')();
-var server = new mosca.Server({});
+const mosca = require('mosca');
+const seneca = require('seneca')();
+const server = new mosca.Server({});
 
 
 seneca.client({host: process.env.PROXY_HOST, port: process.env.serializer_PORT, pin: {role: 'serialize', cmd: 'write'}});
@@ -21,7 +21,7 @@ function parse (body) {
 
 
 server.published = function (packet, client, cb) {
-  var body;
+  let body;
   if (packet.topic.match(/temperature\/[0-9]+\/read/)) {
     body = parse(packet.payload);
 
@@ -33,4 +33,3 @@ server.published = function (packet, client, cb) {
     cb();
   }
 };
-

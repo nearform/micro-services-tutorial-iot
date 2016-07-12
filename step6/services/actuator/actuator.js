@@ -1,10 +1,7 @@
 'use strict';
 
-const Mqtt = require('mqtt');
-const Seneca = require('seneca');
-
 const mqtt = require('mqtt').connect('mqtt://' + process.env.PROXY_HOST + ':1883');
-const seneca = Seneca();
+const seneca = require('seneca')();
 
 
 

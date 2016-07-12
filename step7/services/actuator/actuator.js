@@ -1,16 +1,15 @@
 'use strict';
 
-var mqtt = require('mqtt').connect('mqtt://' + process.env.PROXY_HOST + ':1883');
-var seneca = require('seneca')();
+const mqtt = require('mqtt').connect('mqtt://' + process.env.PROXY_HOST + ':1883');
+const seneca = require('seneca')();
 
 
 
-seneca.add({role: 'actuate', cmd: 'set'}, function(args, callback) {
+seneca.add({role: 'actuate', cmd: 'set'}, (args, callback) => {
   var payload = JSON.stringify({'offset':  parseInt(args.offset, 10) });
-  mqtt.publish('temperature/1/set', new Buffer(payload), {qos: 0, retain: true}, function (err) {
+  mqtt.publish('temperature/1/set', new Buffer(payload), {qos: 0, retain: true}, (err) => {
     callback(err);
   });
 });
 
 seneca.listen({port: process.env.actuator_PORT});
-

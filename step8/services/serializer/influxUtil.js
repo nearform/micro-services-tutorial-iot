@@ -2,7 +2,7 @@
 
 module.exports = function(client) {
 
-  var writePoint = function(sensorId, temperature, cb) {
+  const writePoint = (sensorId, temperature, cb) => {
     client.writePoint('temperature', {sensorId: sensorId, temperature: temperature}, {}, function(err) {
       cb(err);
     });
@@ -10,7 +10,7 @@ module.exports = function(client) {
 
 
 
-  var readPoints = function(sensorId, start, end, cb) {
+  const readPoints = (sensorId, start, end, cb) => {
     client.query('select * from temperature where sensorId=\'' + sensorId + '\' and time > \'' + start + '\' and time < \'' + end + '\'', function(err, data) {
       cb(err, data);
     });
@@ -23,5 +23,3 @@ module.exports = function(client) {
     readPoints: readPoints
   };
 };
-
-
