@@ -1,6 +1,6 @@
 'use strict';
 
-process.env.serializer_PORT = 3001;
+process.env.SERIALIZER_PORT = 3001;
 process.env.INFLUX_HOST = '192.168.59.103';
 
 const assert = require('assert');

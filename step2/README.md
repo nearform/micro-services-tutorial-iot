@@ -24,8 +24,8 @@ Once you have these up and running use the testWrite.sh script to send data to i
 __hint__ If you look at the updated frontend code you will see that it uses the following environment variables
 
 * PROXY_HOST
-* serializer_PORT
-* frontend_PORT
+* SERIALIZER_PORT
+* FRONTEND_PORT
 
 Your script will need to set these values prior to starting the frontend.
 

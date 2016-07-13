@@ -5,7 +5,7 @@ const seneca = require('seneca')();
 const server = new mosca.Server({});
 
 
-seneca.client({host: process.env.PROXY_HOST, port: process.env.serializer_PORT, pin: {role: 'serialize', cmd: 'write'}});
+seneca.client({host: process.env.PROXY_HOST, port: process.env.SERIALIZER_PORT, pin: {role: 'serialize', cmd: 'write'}});
 
 
 

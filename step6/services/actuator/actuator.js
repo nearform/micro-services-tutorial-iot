@@ -10,4 +10,4 @@ seneca.add({role: 'actuate', cmd: 'set'}, (args, cb) => {
   mqtt.publish('temperature/1/set', new Buffer(payload), {qos: 0, retain: true}, cb);
 });
 
-seneca.listen({port: process.env.actuator_PORT});
+seneca.listen({port: process.env.ACTUATOR_PORT});

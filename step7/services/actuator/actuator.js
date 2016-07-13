@@ -12,4 +12,4 @@ seneca.add({role: 'actuate', cmd: 'set'}, (args, callback) => {
   });
 });
 
-seneca.listen({port: process.env.actuator_PORT});
+seneca.listen({port: process.env.ACTUATOR_PORT});

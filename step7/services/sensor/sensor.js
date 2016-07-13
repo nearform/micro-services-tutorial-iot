@@ -1,7 +1,7 @@
 'use strict';
 
 const mqtt = require('mqtt').connect('mqtt://' + process.env.PROXY_HOST + ':1883');
-const offset = 100;
+let offset = 100;
 
 
 

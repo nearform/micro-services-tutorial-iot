@@ -8,7 +8,7 @@ var webStream = require('./webStream')(http);
 var moment = require('moment');
 var _ = require('lodash');
 
-seneca.client({host: process.env.PROXY_HOST, port: process.env.serializer_PORT, pin: {role: 'serialize', cmd: 'read'}});
+seneca.client({host: process.env.PROXY_HOST, port: process.env.SERIALIZER_PORT, pin: {role: 'serialize', cmd: 'read'}});
 app.use('/', express.static(__dirname + '/../public'));
 
 var lastEmitted = 0;
@@ -36,7 +36,6 @@ setInterval(function() {
 
 
 
-http.listen(process.env.frontend_PORT, function(){
-  console.log('listening on *:' + process.env.frontend_PORT);
+http.listen(process.env.FRONTEND_PORT, function(){
+  console.log('listening on *:' + process.env.FRONTEND_PORT);
 });
-

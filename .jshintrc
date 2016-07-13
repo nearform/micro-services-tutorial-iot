@@ -10,7 +10,7 @@
   "immed": true,
   "indent": 2,
   "latedef" : "nofunc",
-  "newcap": false,
+  "newcap": true,
   "noarg": true,
   "quotmark": "single",
   "regexp": true,
@@ -19,6 +19,7 @@
   "strict": true,
   "trailing": true,
   "smarttabs": true,
+  "mocha": true,
   "globals": {
     "document": true,
     "$":true,

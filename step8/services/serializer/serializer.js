@@ -38,7 +38,7 @@ createDatabase(() => {
   });
 
 
-  seneca.listen({port: process.env.serializer_PORT});
+  seneca.listen({port: process.env.SERIALIZER_PORT});
 });
 
 

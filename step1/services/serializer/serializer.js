@@ -1,6 +1,6 @@
 'use strict';
 
-const Seneca = require('seneca')();
+const seneca = require('seneca')();
 const influx = require('influx');
 const influxUtil = require('./influxUtil');
 
@@ -35,7 +35,7 @@ createDatabase(() => {
   });
 
 
-  seneca.listen({port: process.env.serializer_PORT});
+  seneca.listen({port: process.env.SERIALIZER_PORT});
 });
 
 
